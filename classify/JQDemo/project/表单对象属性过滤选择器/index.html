@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>表单对象属性过滤选择器</title>
+<link rel="stylesheet" type="text/css" href="../../../../css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/main.css" />
+</head>
+<body>
+	<!-- body s -->
+	<h3> 表单对象属性过滤选择器.</h3>
+   	<form id="form1" action="#">
+    	<button type="reset">重置所有表单元素</button>
+		<button id="btn1">对表单内 可用input 赋值操作.</button>
+		<button id="btn2">对表单内 不可用input 赋值操作.</button>
+		<br />
+
+		可用元素：<input name="add" value="可用文本框"/>  
+		<br/>
+		不可用元素：<input name="email" disabled="disabled" value="不可用文本框"/>
+		<br/>
+		可用元素： <input name="che" value="可用文本框" />
+		<br/>
+		不可用元素：<input name="name" disabled="disabled"  value="不可用文本框"/>
+		<br/>
+		多选框：<br/>
+		<input type="checkbox" name="newsletter" checked="checked" value="test1" />test1
+		<input type="checkbox" name="newsletter" value="test2" />test2
+		<input type="checkbox" name="newsletter" value="test3" />test3
+		<input type="checkbox" name="newsletter" checked="checked" value="test4" />test4
+		<input type="checkbox" name="newsletter" value="test5" />test5
+		<div></div>
+
+		<br/><br/>
+
+		下拉列表1：<br/>
+		<select name="test" multiple="multiple" style="height:100px">
+			<option>浙江</option>
+			<option selected="selected">湖南</option>
+			<option>北京</option>
+			<option selected="selected">天津</option>
+			<option>广州</option>
+			<option>湖北</option>
+		</select>
+
+		下拉列表2：
+		<select name="test2" >
+			<option>浙江</option>
+			<option>湖南</option>
+			<option selected="selected">北京</option>
+			<option>天津</option>
+			<option>广州</option>
+			<option>湖北</option>
+		</select>
+		<br/><br/>
+		<div></div>
+  	</form>
+    <!-- body e -->
+
+<!-- js s -->
+<script src="../../../../js/jquery.js"></script>
+<script src="js/main.js"></script>
+<!-- js e -->
+</body>
+</html>

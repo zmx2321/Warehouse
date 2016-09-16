@@ -1,0 +1,8 @@
+    #div1{-webkit-columns:auto 3;}  
+    #div1 h1{text-align:center;-webkit-column-span:all;}  
+    #div2{-webkit-columns:200px 3;}  
+    #div3{-webkit-column-width:100px;  
+          -webkit-column-count:5;  
+          -webkit-column-gap:50px;  
+          -webkit-column-rule:dashed 2px #ccc;}  
+      

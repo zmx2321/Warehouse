@@ -1,0 +1,25 @@
+table{
+    width:100%;
+    border:solid 1px #abcdef;
+    border-collapse: collapse;
+}   
+th,td{
+    height:38px;
+    border:solid 1px #abcdef;
+    text-align: center;
+}
+
+.evenRow{
+    /*奇数行颜色*/
+    background: #38a38a;
+}
+
+.oddRow{
+    /*偶数行颜色*/
+    background: #f90;
+}
+
+.currentRow{
+    /*当前行颜色*/
+    background: #0f0;
+}

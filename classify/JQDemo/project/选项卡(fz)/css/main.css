@@ -1,0 +1,41 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.tab {
+    margin: 100px;
+}
+
+.tabNav{
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+.tabNav li{
+    float: left;
+    width:150px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    margin-right: 3px;
+    border:solid 1px #abcdef;
+    border-bottom: none;
+}
+
+.tabContent{
+    clear: both;
+}
+
+.tabContent div{
+    border:solid 1px #abcdef;
+    display: none;
+    width:500px;
+    height: 200px;
+}
+
+.current{
+    background: #abcdef;
+    color:#fff;
+    font-weight: 700;
+}

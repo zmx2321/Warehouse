@@ -1,0 +1,63 @@
+/*新款上市样式*/
+.content_right .prolist {
+    position:relative;
+    height: 220px;
+    margin-bottom:10px;
+    overflow:hidden;
+    border: 1px solid #AAAAAA;
+    background:#FFFFFF;
+}
+.content_right .prolist .prolist_content{
+     position:absolute;
+    width:1800px;
+    top:26px;
+    left:0px;
+    padding:20px 0 0 8px;
+}
+.content_right .prolist ul{ 
+    margin-bottom:10px;
+    float:left;
+    height: 220px;
+}
+.content_right .prolist ul li {
+    float:left;
+    display:inline;
+    text-align:center;
+    margin-right:22px; 
+}
+.content_right .prolist ul li span {
+    display:block;
+    overflow:hidden;
+}
+.content_right .prolist ul li img {
+    display:block;
+    width:124px;
+    height:124px;
+    background:#EEE; border:0;
+}
+.module_left_right{
+    position:absolute;
+    top:5px;
+    right:10px;
+    cursor:pointer;
+}
+
+/* imgHover */
+span.imageMask{
+    background:white;
+    filter:alpha(opacity=0);
+    -moz-opacity:0;
+    -khtml-opacity: 0;
+    opacity: 0;   
+}
+span.imageOver{
+    background:url(../images/zoom.gif) no-repeat 50% 50%;   
+    filter:alpha(opacity=60);
+    -moz-opacity:0.6;
+    -khtml-opacity: 0.6;
+    opacity: 0.6;   
+}
+
+img{
+    width: initial;
+}
