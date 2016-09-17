@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>JDBC数据库链接</title>
+<link rel="stylesheet" type="text/css" href="../../../../css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/main.css" />
+</head>
+<body>
+	<!-- body s -->
+	<pre>
+	package hello;
+	import java.sql.Connection;
+	import java.sql.DriverManager;
+	import com.mysql.jdbc.Statement;
+	import java.sql.ResultSet;
+	import java.sql.SQLException;
+
+	public class test {
+		public static void main(String[] args){
+	        Connection conn = null;
+	        try {
+	               Class.forName("com.mysql.jdbc.Driver");
+	        } catch (ClassNotFoundException e) {
+	               e.printStackTrace();
+	        }
+	        
+	        try {
+	               conn = DriverManager.getConnection("jdbc:mysql://localhost:3309/demo","root","admin123");
+	        } catch (SQLException e) {
+	               e.printStackTrace();
+	        }
+	        
+	        String sql = "select * from user";
+	        
+	        try{
+	               Statement stmt = (Statement) conn.createStatement();
+	               ResultSet rs = stmt.executeQuery(sql);
+	               while(rs.next()){
+	                     int id = rs.getInt(1);
+	                     String name = rs.getString(2);
+	                     System.out.println("id="+id+","+"name="+name);
+	               }
+	               
+	        } catch (SQLException e){
+	               e.printStackTrace();
+	        } finally {
+	               if(conn != null){
+	                     try {
+	                            conn.close();
+	                     } catch (SQLException e) {
+	                            e.printStackTrace();
+	                     }
+	               }
+	        }
+		}
+	}
+	</pre>
+	<!-- body e -->
+
+<!-- js s -->
+<script src="../../../../js/jquery.js"></script>
+<script src="js/main.js"></script>
+<!-- js e -->
+</body>
+</html>
