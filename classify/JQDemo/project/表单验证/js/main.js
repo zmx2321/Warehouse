@@ -1,34 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<title></title>
-<script src="css/style.css"></script>
-</head>
-<body>
-
-<form method="post" action="">
-    <div class="int">
-        <label for="username">用户名:</label>
-        <!-- 为每个需要的元素添加required -->
-        <input type="text" id="username" class="required" />
-    </div>
-    <div class="int">
-        <label for="email">邮箱:</label>
-        <input type="text" id="email" class="required" />
-    </div>
-    <div class="int">
-        <label for="personinfo">个人资料:</label>
-        <input type="text" id="personinfo" />
-    </div>
-    <div class="sub">
-        <input type="submit" value="提交" id="send"/><input type="reset" id="res"/>
-    </div>
-</form>
-
-<!-- js s -->
-<script src="js/jquery.js"></script>
-<script>
 //<![CDATA[
 $(function(){
         /*
@@ -95,7 +64,3 @@ $(function(){
          });
 })
 //]]>
-</script>
-<!-- js e -->
-</body>
-</html>
