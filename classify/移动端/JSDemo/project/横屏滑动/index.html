@@ -1,108 +1,43 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>选项卡</title>
-<style type="text/css">
-.viewport,
-body,
-html {
-    height: 100%;
-    overflow: hidden;
-    position: relative
-}
+<meta charset="utf-8">
+<title>java</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"/>
+<link rel="stylesheet" type="text/css" href="../../css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/main.css" />
+</head>
+<body>
+	<!-- body s -->
+    <div id="viewport" class="viewport">
+        <div class="pageview" style="background: #3b76c0">
+            <h3>页面-1</h3>
+        </div>
+        <div class="pageview" style="background: #58c03b;">
+            <h3>页面-2</h3>
+        </div>
+        <div class="pageview" style="background: #c03b25;">
+            <h3>页面-3</h3>
+        </div>
+        <div class="pageview" style="background: #e0a718;">
+            <h3>页面-4</h3>
+        </div>
+        <div class="pageview" style="background: #c03eac;">
+            <h3>页面-5</h3>
+        </div>
+    </div>
+    <div class="pagenumber">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+	<!-- body e -->
 
-body,
-html {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    font-family: Arial
-}
-
-.viewport {
-    width: 500%;
-    display: -webkit-box;
-    pointer-events: none;
-    -webkit-transform: translate3d(0, 0, 0);
-    backface-visibility: hidden
-}
-
-.pageview {
-    -webkit-box-flex: 1;
-    width: 0
-}
-
-.pagenumber {
-    display: -webkit-box;
-    position: absolute;
-    bottom: 2em;
-    left: 35%;
-    height: 2em;
-    width: 30%
-}
-
-.pagenumber div {
-    -webkit-box-flex: 1;
-    width: 0;
-    position: relative
-}
-
-.pagenumber .now:after {
-    background: rgba(255, 255, 255, 1)!important
-}
-
-.pagenumber div:after {
-    content: "";
-    width: .4em;
-    height: .4em;
-    background: rgba(255, 255, 255, .5);
-    border-radius: 2em;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -.2em;
-    margin-left: -.2em
-}
-
-h3 {
-    text-align: center;
-    font-family: Microsoft YaHei, Arial;
-    color: #fff;
-    font-size: 1.7em;
-    font-weight: 400;
-    padding: 1em 0;
-    margin: 0
-}
-
-@media screen and (max-width:360px) {
-    body,
-    html {
-        font-size: 15px
-    }
-}
-
-@media screen and (min-width:360px) and (max-width:400px) {
-    body,
-    html {
-        font-size: 16px
-    }
-}
-
-@media screen and (min-width:400px) and (max-width:460px) {
-    body,
-    html {
-        font-size: 18px
-    }
-}
-
-@media screen and (min-width:460px) {
-    body,
-    html {
-        font-size: 24px
-    }
-}
-</style>
+<!-- js s -->
+<script src="../../../../js/lib/jquery-1.8.3.min.js"></script>
+<script src="js/main.js"></script>
 <script type="text/javascript">
 (function(window,document){
     var currentPosition = 0; //记录当前页面位置
@@ -227,45 +162,6 @@ h3 {
     }
 })(window,document);
 </script>
-</head>
-<body>
-<!DOCTYPE html>
-<html lang="en">
-
-    <head>
-        <title>H5单页面手势滑屏切换</title>
-        <meta name="viewport" charset="utf-8" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=1.0">
-        <link rel="stylesheet" href="dist/app.css">
-        <script src="js/app.js"></script>
-    </head>
-
-    <body>
-        <div id="viewport" class="viewport">
-            <div class="pageview" style="background: #3b76c0">
-                <h3>页面-1</h3>
-            </div>
-            <div class="pageview" style="background: #58c03b;">
-                <h3>页面-2</h3>
-            </div>
-            <div class="pageview" style="background: #c03b25;">
-                <h3>页面-3</h3>
-            </div>
-            <div class="pageview" style="background: #e0a718;">
-                <h3>页面-4</h3>
-            </div>
-            <div class="pageview" style="background: #c03eac;">
-                <h3>页面-5</h3>
-            </div>
-        </div>
-        <div class="pagenumber">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-    </body>
-
-</html>
- </body>
+<!-- js e -->
+</body>
 </html>
