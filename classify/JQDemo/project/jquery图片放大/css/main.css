@@ -1,0 +1,25 @@
+ul{
+    margin: 50px;
+}
+
+li{
+    list-style:none;
+    float:left;
+    display:inline;
+    margin-right:10px;
+    border:1px solid #AAAAAA;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    overflow: hidden;
+}
+
+/* tooltip */
+#tooltip{
+    position:absolute;
+    border:1px solid #ccc;
+    background:#333;
+    padding:2px;
+    display:none;
+    color:#fff;
+}
