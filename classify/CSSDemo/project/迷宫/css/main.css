@@ -1,0 +1,41 @@
+*{margin:0px;padding:0px;}  
+body{background:#b1b1b1;margin:0px;padding:0px;font-size:14px;color:#000;}  
+.tips{padding:15px;line-height:24px;}  
+#outer {width:330px; height:330px; position:relative; background:#ddd; margin:50px auto 100px auto; border:2px solid #000;}  
+#holder {padding:30px 0 0 0; list-style-type:none; width:330px; height:300px; margin:0;}  
+#holder li {display:block; width:30px; height:30px; background:#c00; margin-left:30px; margin-bottom:30px; float:left;}  
+#holder a {display:block; width:30px; height:30px; position:absolute; background:#c00; z-index:10;}  
+#holder a span {display:block; width:30px; height:30px; background:#c00; position:absolute; left:0; top:0; z-index:10;}  
+a#in {left:150px; top:300px; background:#000;}  
+.h1 {width:30px; height:30px; position:absolute; background:#bb7; top:0; left:30px;}  
+.h2 {width:90px; height:30px; position:absolute; background:#bb7; top:0; left:30px;}  
+.h3 {width:150px; height:30px; position:absolute; background:#bb7; top:0; left:30px;}  
+.h4 {width:210px; height:30px; position:absolute; background:#bb7; top:0; left:30px;}  
+.lft1 {left:-30px;}  
+.lft2 {left:-90px;}  
+.lft3 {left:-150px;}  
+.lft4 {left:-210px;}  
+#holder a span {background:#eee url("http://www.webdm.cn/images/20130407/path.gif");}  
+#holder a#c3 {background:#eee url("http://www.webdm.cn/images/20130407/grass.gif"); text-align:center;}  
+#holder a#c3 span {display:none; background:#eee url("http://www.webdm.cn/images/20130407/grass.gif");}  
+.v1 {width:30px; height:30px; position:absolute; background:#bb7; left:0; top:30px;}  
+.v2 {width:30px; height:90px; position:absolute; background:#bb7; left:0; top:30px;}  
+.v3 {width:30px; height:150px; position:absolute; background:#bb7; left:0; top:30px;}  
+.v4 {width:30px; height:210px; position:absolute; background:#bb7; left:0; top:30px;}  
+.up1 {top:-30px;}  
+.up2 {top:-90px;}  
+.up3 {top:-150px;}  
+.up4 {top:-210px;}  
+#holder a em, #holder a:visited em {visibility:hidden; background:#ede;z-index:100;}  
+#holder a:hover {width:0; height:0; background:#ddd; z-index:100;}  
+#holder a:hover span {background:#c00 url("http://www.webdm.cn/images/20130407/path.gif"); z-index:100; cursor:move;}  
+#holder a:hover em {visibility:visible; background:#bb7 url("http://www.webdm.cn/images/20130407/path2.gif"); z-index:100; cursor:pointer;}  
+#holder a:active {width:0; height:0;}  
+a#failed {position:absolute; left:0; top:0; width:310px; height:310px; background:#fff url("http://www.webdm.cn/images/20130407/mud.gif"); z-index:10; text-align:center;padding:10px;line-height:32px;}  
+a#failed span {display:none;}  
+a#failed:hover {background:#000 url("http://www.webdm.cn/images/20130407/mud.gif"); z-index:200; text-decoration:none;}  
+a#failed:hover span {display:block; background:transparent; font-size:20px; color:#fff; margin-top:75px;}  
+a#way-in {position:absolute; left:150px; top:300px; width:30px; height:30px; background:#fff url("http://www.webdm.cn/images/20130407/path.gif"); z-index:10;}  
+#holder a#c3:hover {position:absolute; top:0; left:0; width:330px; height:330px; text-align:center;}  
+#holder a#c3:hover span {display:block; background:#eee url("http://www.webdm.cn/images/20130407/grass.gif"); font-size:20px; color:#000;}  
+#holder a#c3:hover span em {font-style:normal; width:330px; position:absolute; top:0; left:0; display:block; background:transparent; font-size:20px; color:#000; margin-top:75px;}  
