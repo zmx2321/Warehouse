@@ -1,0 +1,31 @@
+@charset "utf-8";
+*{margin:0;padding:0;list-style-type:none;}
+a,img{border:0;}
+body{font:12px/180% Arial, Helvetica, sans-serif, "新宋体";}
+img{max-width:100%;height:auto}
+img[width],img[height]{max-width:none}
+*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
+
+/* fsvs */
+html.fsvs{height:100%;width:100%;position:fixed;top:0;left:0;overflow:hidden}
+html.fsvs #fsvs-body{-webkit-backface-visibility:hidden;-webkit-perspective:1000;position:absolute;top:0;left:0;z-index:1;height:100%;width:100%}
+html.fsvs #fsvs-body>*{height:100%;width:100%;overflow:hidden;-webkit-backface-visibility:hidden;-webkit-perspective:1000}
+html.fsvs #fsvs-pagination{margin:0;padding:8px 4px;position:fixed;height:auto;right:-100px;top:50%;z-index:999;width:32px}
+html.fsvs #fsvs-pagination li{list-style:none;width:25px;height:25px;line-height:25px;text-align:center;margin:0 0 2px 0;cursor:pointer}
+html.fsvs #fsvs-pagination li>span{-webkit-border-radius:100%;-moz-border-radius:100%;-ms-border-radius:100%;-o-border-radius:100%;border-radius:100%;width:22px;height:22px;line-height:22px;border:1px solid white;display:block}
+html.fsvs #fsvs-pagination li>span>span{-webkit-border-radius:100%;-moz-border-radius:100%;-ms-border-radius:100%;-o-border-radius:100%;border-radius:100%;width:12px;height:12px;line-height:12px;border:1px solid white;display:block;margin:4px}
+html.fsvs #fsvs-pagination li.active>span{border:1px dashed white}
+html.fsvs #fsvs-pagination li.active>span>span{background:white}
+html.fsvs #fsvs-pagination li:last-child{margin:0}
+html.fsvs.demo #fsvs-body>.slide{padding:40px;text-align:center}
+html.fsvs.demo #fsvs-body>.slide h2{color:white;text-transform:uppercase;font-weight:bold;font-size:38px;font-size:2.375rem;line-height:1.26316}
+html.fsvs.demo #fsvs-body>.slide p{font-size:22px;font-size:1.375rem;line-height:1.09091;color:white}
+html.fsvs.demo #fsvs-body>.slide.nth-class-1{background:#eb7347}
+html.fsvs.demo #fsvs-body>.slide.nth-class-2{background:#26a65b}
+html.fsvs.demo #fsvs-body>.slide.nth-class-3{background:#d24d57}
+html.fsvs.demo #fsvs-body>.slide pre{-webkit-border-radius:5px;-moz-border-radius:5px;-ms-border-radius:5px;-o-border-radius:5px;border-radius:5px;display:inline-block;padding:20px 60px;margin:40px 0}
+@media only screen and (max-width: 500px){
+
+	html.fsvs #fsvs-body>.slide h2{font-size:18px;font-size:1.125rem;line-height:1.33333}
+
+}
