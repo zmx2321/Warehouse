@@ -1,0 +1,15 @@
+$(function(){
+   $(".button").click(function(){
+        $.ajax({
+            url:'process.php?'+Math.random(),
+            type:'post',
+            data:{
+                url:'aaa'
+            },
+            success:function(response,status,xhr){
+                $("#box").html(response);
+                alert(xhr.status);
+            }
+        });
+   });
+});

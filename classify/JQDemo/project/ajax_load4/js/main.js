@@ -1,0 +1,14 @@
+$(function(){
+	$(".button").click(function(){
+		$.get("test.html",function(response,status,xhr){
+			$("#box").html(response);
+			console.log(("status="+status));
+			console.log((xhr.status));
+			if(status=="success"){
+				alert(status);
+			}else{
+				alert(wrong);
+			}
+		});
+	});
+});
