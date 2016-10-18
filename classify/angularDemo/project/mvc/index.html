@@ -1,22 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html ng-app>
 <head>
 <meta charset="utf-8">
-<title>angularDemo</title>
+<title>MVC</title>
 <link rel="stylesheet" type="text/css" href="../../css/style.css" />
 <link rel="stylesheet" type="text/css" href="css/main.css" />
 </head>
 <body>
 <!-- body s -->
-	<ul>
-		<li><a href="project/Hello/index.html">Hello</a></li>
-		<li><a href="project/MVC/index.html">MVC</a></li>
-	</ul>
+	<div ng-controller="HelloAngular">
+      <p>{{greeting.text}},Angular</p>
+    </div>
+
+<!-- {{greeting.text}},Angular ——>数据模型 -->
+<!-- controller ——>控制器 -->
+<!-- <p>...</p> ——>视图 -->
 <!-- body s -->
 
 <!-- js s -->
 <script src="../../../../js/lib/jquery-1.8.3.min.js"></script>
-<script src="js/lib/angular.min.js"></script>
+<script src="http://lib.sinaapp.com/js/angular.js/angular-1.1.0/angular.min.js"></script>
 <script src="js/main.js"></script>
 <!-- js e -->
 </body>
