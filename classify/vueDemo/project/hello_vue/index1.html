@@ -13,7 +13,7 @@
 		{{ message }}
 	</div>
 
-	<a id="app2" v-bind:href="message">
+	<a id="app2" :href="message">
 		{{ message1 }}
 	</a>
 
@@ -28,6 +28,17 @@
 		      {{ todo.text }}
 		    </li>
 		</ol>
+	</div>
+
+<p style="color: #f00">处理用户输入</p>
+	<div id="app-5">
+	  <p>{{ message }}</p>
+	  <button @click="reverseMessage">Reverse Message</button>
+	</div>
+
+	<div id="app-6">
+	  <p>{{ message }}</p>
+	  <input v-model="message">
 	</div>
 	<!-- body e -->
 
