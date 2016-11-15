@@ -48,3 +48,10 @@ var app6 = new Vue({
     message: 'Hello Vue!'
   }
 });
+
+var example1 = new Vue({
+  el: '#example-1',
+  data: {
+    counter: 0
+  }
+})
