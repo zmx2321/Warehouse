@@ -1,0 +1,23 @@
+pre{
+	color: #f00;
+	margin: 50px 0;
+	font-size: 1.3rem;
+}
+
+table{
+	margin: 50px;
+}
+
+table td{
+	border: solid 1px #ccc;
+	padding: 10px;
+	text-align: center;
+}
+
+table tr td:last-child{
+	font-size: 1.2rem;
+}
+
+table tr td[colspan="2"]{
+	font-size: 1.4rem;
+}

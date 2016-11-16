@@ -29,6 +29,14 @@ ol, ul {
   list-style: none;
 }
 
+html {
+    font-size: 62.5%;/*10 ÷ 16 × 100% = 62.5%*/
+}
+
+body{
+  font-size: 1.5rem;
+}
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -41,6 +49,10 @@ img{
 
 .clear{
   clear: both;
+}
+
+div{
+  margin: 10px;
 }
 /*******************************************************************************
 Theme Styles

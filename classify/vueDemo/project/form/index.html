@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>form</title>
+<link rel="stylesheet" type="text/css" href="../../../../css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/main.css" />
+</head>
+<body>
+	<!-- body s -->
+	<form id="demo">
+	  <!-- text -->
+	  <p>
+	    <input type="text" v-model="msg">
+	    {{msg}}
+	  </p>
+	  <!-- checkbox -->
+	  <p>
+	    <input type="checkbox" v-model="checked">
+	    {{checked ? "yes" : "no"}}
+	  </p>
+	  <!-- radio buttons -->
+	  <p>
+	    <input type="radio" name="picked" value="one" v-model="picked">
+	    <input type="radio" name="picked" value="two" v-model="picked">
+	    {{picked}}
+	  </p>
+	  <!-- select -->
+	  <p>
+	    <select v-model="selected">
+	      <option>one</option>
+	      <option>two</option>
+	    </select>
+	    {{selected}}
+	  </p>
+	  <!-- multiple select -->
+	  <p>
+	    <select v-model="multiSelect" multiple>
+	      <option>one</option>
+	      <option>two</option>
+	      <option>three</option>
+	    </select>
+	    {{multiSelect}}
+	  </p>
+	  <p><pre>data: {{$data | json 2}}</pre></p>
+	</form>
+	<!-- body e -->
+
+<!-- js s -->
+<script src="https://unpkg.com/axios@0.12.0/dist/axios.min.js"></script>
+<script src="https://unpkg.com/lodash@4.13.1/lodash.min.js"></script>
+<script src="../../../../js/lib/jquery-1.8.3.min.js"></script>
+<script src="../../js/lib/vue.js"></script>
+<script src="js/main.js"></script>
+<!-- js e -->
+</body>
+</html>

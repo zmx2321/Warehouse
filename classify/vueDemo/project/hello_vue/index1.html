@@ -8,37 +8,37 @@
 </head>
 <body>
 	<!-- body s -->
-<p style="color: #f00">声明式渲染</p>
-	<div id="app1" v-bind:title="message1">
+	<div id="app">
 		{{ message }}
+		<p v-text="a" @click="doSomething" style="-webkit-user-select:none;"></p>
+		（可点击）
+		<p v-html="c"></p>
 	</div>
 
-	<a id="app2" :href="message">
-		{{ message1 }}
-	</a>
-
-<p style="color: #f00">条件与循环</p>
-	<div class="app3">
-		<p v-if="screen">123123</p>
+	<div id="app2">
+		<ul>
+			<li v-for="item in items">
+				<p v-text="item.label"></p>
+			</li>
+		</ul>
+		<p v-if="isShow">123</p>
+		<p v-show="isShow">123</p>
 	</div>
 
-	<div id="app4">
-		<ol>
-		    <li v-for="todo in todos">
-		      {{ todo.text }}
-		    </li>
-		</ol>
+	<div id="app3">
+		<p class="static" v-bind:class="{ 'active': isActive, 'text-danger': hasError }">123</p>
 	</div>
 
-<p style="color: #f00">处理用户输入</p>
-	<div id="app-5">
-	  <p>{{ message }}</p>
-	  <button @click="reverseMessage">Reverse Message</button>
+	<div id="app5">
+		<ul>
+			<li v-for="tem in tems" :class="{finished: tem.isFinished}" @click="toogleClass(tem)">
+				{{ tem.txt }}
+			</li>
+		</ul>
 	</div>
 
-	<div id="app-6">
-	  <p>{{ message }}</p>
-	  <input v-model="message">
+	<div id="app6">
+		<input type="text" v-model="newItem" v-bind:value="aaa" v-on:keyup.enter="addNew" />
 	</div>
 	<!-- body e -->
 

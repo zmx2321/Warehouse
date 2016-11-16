@@ -1,52 +1,79 @@
-var app1 = new Vue({
-	el: '#app1',
+var app = new Vue({
+	el: '#app',
 	data: {
-		message: 'hnbjk',
-		message1: 'hnbjk'
+		message: "aaa",
+		a: "984",
+		b: [],
+		c: 456
+	},
+	methods: {
+		doSomething: function(){
+			this.a ++;
+		}
+	},
+	watch: {
+		'a': function(val,oldVal){
+			console.log(val,oldVal);
+		}
 	}
 });
 
 var app2 = new Vue({
 	el: '#app2',
+	aaa: 'aaa',
 	data: {
-		message: 'http://www.baidu.com',
-		message1: 'baidu'
-	}
+		isShow: true,
+		items: [
+			{
+				label: 'apple'
+			},
+			{
+				label: 'banana'
+			},
+		]
+	},
 });
 
 var app3 = new Vue({
-	el: '.app3',
+	el: '#app3',
 	data: {
-		screen: false
-	}
-});
-
-var app4 = new Vue({
-	el: '#app4',
-	data: {
-		todos: [
-			{ text: 'Learn JavaScript' },
-			{ text: 'Learn Vue' },
-			{ text: '123' }
-		]
+		isActive: false,
+  		hasError: true
 	}
 });
 
 var app5 = new Vue({
-  el: '#app-5',
-  data: {
-    message: 'Hello Vue.js!'
-  },
-  methods: {
-    reverseMessage: function () {
-      this.message = this.message.split('').reverse().join('')
-    }
-  }
+	el: '#app5',
+	data: {
+		tems: [
+			{
+				txt: 'qqqqq',
+				isFinished: true,	//app5.tems[0].isFinished
+			},
+			{
+				txt: 'wwwww',
+				isFinished: false,
+			}
+		]
+	},
+	methods: {
+		toogleClass: function(tem){
+			tem.isFinished = !tem.isFinished
+			console.log(tem.isFinished);
+		}
+	}
 });
 
 var app6 = new Vue({
-  el: '#app-6',
-  data: {
-    message: 'Hello Vue!'
-  }
+	el: '#app6',
+	data: {
+		aaa: 'bbb',
+		newItem: '',
+	},
+	methods: {
+		addNew: function(){
+			console.log(this.newItem);
+			this.newItem = '';
+		}
+	}
 });
