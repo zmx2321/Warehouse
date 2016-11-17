@@ -1,11 +1,3 @@
-.active{
-	color: #ff0;
-}
-
-.text-danger{
-	color: #f96;
-}
-
 .finished{
 	cursor: pointer;
 	transition: 0.2s linear;

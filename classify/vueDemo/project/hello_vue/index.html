@@ -49,6 +49,49 @@
 	  <p>这个按钮被点击了 {{ counter }} 次。</p>
 	</div>
 
+
+<p style="color: #f00;margin-top:50px">qqqqq</p>
+	<div id="app1">
+		{{ message }}
+		<p v-text="a" @click="doSomething" style="-webkit-user-select:none;"></p>
+		（可点击）
+		<p v-html="c"></p>
+	</div>
+
+	<div id="app2">
+		<ul>
+			<li v-for="item in items">
+				<p v-text="item.label"></p>
+			</li>
+		</ul>
+		<p v-if="isShow">123</p>
+		<p v-show="isShow">123</p>
+	</div>
+
+	<div id="app3">
+		<p class="static" v-bind:class="{ 'active': isActive, 'text-danger': hasError }">123</p>
+	</div>
+
+	<div id="app5">
+		<ul>
+			<li v-for="tem in tems" :class="{finished: tem.isFinished}" @click="toogleClass(tem)">
+				{{ tem.txt }}
+			</li>
+		</ul>
+	</div>
+
+	<div id="app6">
+		<input type="text" v-model="newItem" v-bind:value="aaa" v-on:keyup.enter="addNew" />
+	</div>
+
+	<div id="app99" style="margin-top: 50px">
+		<ul>
+			<input type="text" v-model="newItem" @keyup.enter="addNew" />
+			<li v-for="itm in itms" :class="{finished :itm.isFinished}" @click="toogleClass(itm)">
+				{{ itm.txt }}
+			</li>
+		</ul>
+	</div>
 	<!-- body e -->
 
 <!-- js s -->
