@@ -1,0 +1,128 @@
+jquery([{"position":1,"key":"9194","score":72.49,"name":"AcceleratorH","className":"9班","header":"149b3c18-ca26-4913-95df-599242c18ed1.jpg"},{"position":2,"key":"9391","score":70.0,"name":"苏菲儿A","className":"9班","header":"f0b538ba-405c-48d4-b1c1-1674bb9962a2.jpg"},{"position":3,"key":"7627","score":69.25,"name":"黑剑士","className":"7班","header":null},{"position":4,"key":"9279","score":65.31,"name":"speosd丶淼","className":"9班","header":null},{"position":5,"key":"8272","score":64.63,"name":"Belief八卦","className":"8班","header":null},{"position":6,"key":"7694","score":62.85,"name":"木易淼","className":"7班","header":null},{"position":7,"key":"9428","score":62.53,"name":"未打先怂","className":"9班","header":"3faa720e-ca3e-4aef-81b4-b84ee74f7daf.jpg"},{"position":8,"key":"9107","score":62.23,"name":"Room9107杰","className":"9班","header":null},{"position":9,"key":"9379","score":62.17,"name":"Me丶豆子","className":"9班","header":null},{"position":10,"key":"7159","score":60.12,"name":"敌方小兵临死前丶","className":"7班","header":"358aeffc-6e34-439d-9262-6d1224bdda5d.jpg"},{"position":11,"key":"9101","score":58.72,"name":"国产小泰迪","className":"9班","header":null},{"position":12,"key":"7150","score":57.07,"name":"战丶林天才","className":"7班","header":null},{"position":13,"key":"6422","score":56.85,"name":"冷影灬Is","className":"6班","header":"f5e90a0f-42f3-432c-b326-874acf0593c0.jpg"},{"position":14,"key":"3107","score":56.45,"name":"丨ht丨","className":"3班","header":"f80cb2ba-813b-4956-bda3-54232e6ab40e.jpg"},{"position":15,"key":"7020","score":55.53,"name":"金刚小蹦蹦","className":"7班","header":"bf6912d4-89a8-4332-8012-2db19337a00b.jpg"},{"position":16,"key":"7165","score":55.33,"name":"Warm丨华思雨","className":"7班","header":null},{"position":17,"key":"7266","score":54.83,"name":"夜幕下的暗杀","className":"7班","header":null},{"position":18,"key":"3039","score":53.35,"name":"饿死的我","className":"3班","header":null},{"position":19,"key":"5336","score":53.05,"name":"Callie丶阿呆","className":"5班","header":"0c9c7bdf-c4a1-44d9-ac4a-29cc3442ff72.jpg"},{"position":20,"key":"4133","score":51.95,"name":"吾之帅丶尔等怎懂","className":"4班","header":"d52a8b23-932e-45dd-9cf6-35a3d5c7f3b4.jpg"},{"position":21,"key":"7612","score":51.17,"name":"BazarCool","className":"7班","header":null},{"position":22,"key":"8066","score":51.0,"name":"ID有毒改一改","className":"8班","header":null},{"position":23,"key":"9317","score":50.61,"name":"superstom","className":"9班","header":null},{"position":24,"key":"6424","score":50.6,"name":"Jeff灬Hardy丶","className":"6班","header":"e81053f5-618b-477a-91e0-fb16b7dd6f99.jpg"},{"position":25,"key":"9312","score":49.79,"name":"帅锅进来坐一下嘛","className":"9班","header":null},{"position":26,"key":"9333","score":48.66,"name":"NT哥","className":"9班","header":null},{"position":27,"key":"3056","score":48.45,"name":"Clearlove筱柒","className":"3班","header":"75d0f0d6-0f46-4ad6-adc3-96c5fdf0d854.jpg"},{"position":28,"key":"8542","score":48.4,"name":"灬感性Mirabelle","className":"8班","header":"3156c125-20b4-41dd-b3ff-1e8270b67a2f.jpg"},{"position":29,"key":"7263","score":48.28,"name":"bigsinkhole","className":"7班","header":null},{"position":30,"key":"7008","score":48.08,"name":"今我未来花已开丶","className":"7班","header":null},{"position":31,"key":"7127","score":48.05,"name":"Dunnyal丶","className":"7班","header":null},{"position":32,"key":"8168","score":48.03,"name":"n1小九哥","className":"8班","header":null},{"position":33,"key":"6732","score":47.7,"name":"细水长流不张扬","className":"6班","header":"b2988fa8-2c7f-4acc-a635-d6e8de6b3b04.jpg"},{"position":34,"key":"8474","score":47.35,"name":"改变SidneySidon","className":"8班","header":null},{"position":35,"key":"Boom259","score":47.02,"name":"七宫o","className":"2班","header":"f7399dd5-5ba3-4994-affc-40e265bf7833.jpg"},{"position":36,"key":"7621","score":46.93,"name":"灼无尘","className":"7班","header":null},{"position":37,"key":"8044","score":46.83,"name":"琅琊蝎子","className":"8班","header":null},{"position":38,"key":"6607","score":46.75,"name":"九尺大茹","className":"6班","header":null},{"position":39,"key":"7369","score":46.59,"name":"豪哥是神一我是坑","className":"7班","header":null},{"position":40,"key":"7292","score":46.0,"name":"怒买改名卡","className":"7班","header":null},{"position":41,"key":"9314","score":45.58,"name":"冷月葬花骨","className":"9班","header":null},{"position":42,"key":"8547","score":44.68,"name":"野性且危险","className":"8班","header":"2ea803e4-4678-4e9c-94db-65c8ae42159c.jpg"},{"position":43,"key":"6630","score":44.5,"name":"Free丨Sky","className":"6班","header":"b20946df-2d66-4621-a0e4-dd6df8c99dda.jpg"},{"position":44,"key":"4129","score":44.25,"name":"HZ专杀对面老乌龟","className":"4班","header":null},{"position":45,"key":"7017","score":43.93,"name":"丨江左梅郎丶","className":"7班","header":null},{"position":46,"key":"8171","score":43.91,"name":"飞红万点","className":"8班","header":null},{"position":47,"key":"8316","score":43.81,"name":"花缺缺","className":"8班","header":null},{"position":48,"key":"9027","score":43.57,"name":"无情也疯狂","className":"9班","header":"f8894952-7065-40ef-b5c1-aa9e06137d73.jpg"},{"position":49,"key":"9221","score":43.48,"name":"百里千冰OL","className":"9班","header":null},{"position":50,"key":"8133","score":43.36,"name":"S不醒梦","className":"8班","header":null},{"position":51,"key":"8418","score":43.2,"name":"1级打野小龙开","className":"8班","header":null}]);
+
+
+
+jquery({
+    "error": false,
+    "msg": "登录成功",
+    "attachment": {
+        "studentId": 2134,
+        "studentNum": "6666666",
+        "semesterId": 3,
+        "classId": 2,
+        "name": null ,
+        "password": "11111111",
+        "qq": "1",
+        "sex": true,
+        "age": null ,
+        "vest": null ,
+        "headImage": "6d16f0e4-7dff-434e-86b0-296db25c82a0.jpg",
+        "region": "湖北_宜昌",
+        "tier": 0,
+        "queue": 0,
+        "winPoint": 1470,
+        "areaCode": 1,
+        "areaName": "艾欧尼亚",
+        "frontIndex": 0,
+        "nowIndex": 0,
+        "ability": 3970,
+        "remark": null ,
+        "summoner": "找个老公玩一下",
+        "desireWay": "打野",
+        "phone": "11111111111",
+        "ageRange": "18岁至23岁",
+        "status": "001",
+        "reason": null ,
+        "praise": 0,
+        "sCount": 0,
+        "today_s_count": 0,
+        "level": 0,
+        "version": 0,
+        "yy": null ,
+        "updateTime": 1476720000000,
+        "addTime": 1458576000000,
+        "oneToOneServiceOpen": true,
+        "ssjopen": true,
+        "growthServiceOpen": false,
+        "scount": 0
+    }
+});
+
+
+
+http://school.iboom.tv/cs/sm.txt
+
+http://school.iboom.tv/cs/data.json ---请注意数据格式
+http://school.iboom.tv/cs/xgt.png---效果图
+
+默认图片地址：http://school.iboom.tv/school/images/public/default/defaultIco.png
+头像数据地址：http://static.iboom.tv/static/img/f0b538ba-405c-48d4-b1c1-1674bb9962a2.jpg
+
+
+
+
+要求：	（1）可以展示效果图+10分
+ 	（2）数据动态获取+10分----data.json
+	（3）数据源换成下面的+20
+	     http://school.iboom.tv/school/boot/rank/getRankList --- 支持jsonp    
+	     http://school.iboom.tv/school/auth/login.do-----参数qq=1，password=11111111
+
+
+
+
+
+
+
+/*$(document).ready(function(){
+    $.get("wx/school/v1.0/recommend?groupId=12",function(data,status){
+        var thisLives = data.data;
+        var lists = "";
+        console.log(thisLives);
+        $.each(thisLives, function (n,value) {
+               var li = "";
+               li += "<li class='boacteer_list_li'><img src= " + value.img + "/>"  + "<span class='boacteer-img-name'>" + value.name + "</span>"+ "</li>";
+               lists += li;
+           });
+     $("#boacteer_list").append(lists);
+  });
+    $.get("wx/school/v1.0/recommend?groupId=13",function(data,status){
+        console.log(data);
+        var thisSlide = data.data;
+        var slides = "";
+        console.log();
+        $.each(thisSlide, function (n,value) {
+                         var li = "";
+                         li += "<div class='swiper-slide'> " + "<a href='#'>" + "<div class='boacteer_header_ban_pic'><img src= " + value.img + "/>" + "</div>" + "<span >" + value.name + "</span>"+ "</a>"+"</div>";
+                         slides += li;
+                 });
+ $("#vsrmd").append(slides);
+});
+});*/
+
+
+
+/*$(document).ready(function(){
+  $.get("wx/school/v1.0/recommend?groupId=11",function(data,status){
+  var thisCourses = data.data;
+  var lists = "";
+  console.log(thisCourses);
+  $.each(thisCourses, function (n,value) {
+             var li = "";
+             li += "<li class='boacteer_list_li'><img src= " + value.img + "/>"  + "<span class='boacteer-img-name'>" + value.name + "</span>"+ "</li>";
+             lists += li;
+         });
+ $("#hotCourse").append(lists);
+ });
+ $.get("wx/school/v1.0/recommend?groupId=14",function(data,status){
+ console.log(data);
+ var thisSlide = data.data;
+ var slides = "";
+ console.log();
+ $.each(thisSlide, function (n,value) {
+            var li = "";
+            li += "<div class='swiper-slide'> " + "<a href='#'>" + "<div class='boacteer_header_ban_pic'><img src= " + value.img + "/>" + "</div>" + "<span >" + value.name + "</span>"+ "</a>"+"</div>";
+            slides += li;
+        });
+$("#curcent_list").append(slides);
+});
+});*/

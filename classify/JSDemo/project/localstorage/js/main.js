@@ -1,4 +1,4 @@
-$(function(){
+
     var oStorage = window.localStorage;
 
     function $(id){
@@ -74,4 +74,3 @@ $(function(){
         getStorageItem(); // 数据发生变化时,重新获取数据
     }
 
-)};
