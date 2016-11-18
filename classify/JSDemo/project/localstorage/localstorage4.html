@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>fvdsfd</title>
+<!-- <link rel="stylesheet" type="text/css" href="../../css/style.css" /> -->
+<link rel="stylesheet" type="text/css" href="css/main.css" />
+</head>
+<body>
+	<!-- body s -->
+<form id="demoForm">
+<p><label><span>姓名</span><input name="name"></label></p>
+<p><label><span>年龄</span><input name="age"></label></p>
+<p><label><span>学号</span><input name="number"></label></p>
+<p><label><span>地址</span><input name="address"></label></p>
+<p><label><span>爱好</span><input name="habit"></label></p>
+<p><label><span>其他</span><textarea name="big" id="" cols="30" rows="10"></textarea></label></p>
+<p><input type="submit" value="提交"></p>
+</form>
+	<!-- body e -->
+
+<!-- js s -->
+<script src="../../../../js/lib/jquery-1.8.3.min.js"></script>
+<script>
+(function($){
+$(function(){
+$.fn.getFormParam=function(){
+var serializeObj={};
+var array=this.serializeArray();
+var str=this.serialize();
+$(array).each(function(){
+if(serializeObj[this.name]){
+if($.isArray(serializeObj[this.name])){
+serializeObj[this.name].push(this.value);
+}else{
+serializeObj[this.name]=[serializeObj[this.name],this.value];
+}
+}else{
+serializeObj[this.name]=this.value;
+}
+});
+return serializeObj;
+};</p> <p> var storageFile =JSON.parse(window.localStorage.getItem('demo'));
+$.each(storageFile, function(i, val){
+$('#demoForm').find('[name="'+i+'"]').val(val);
+});</p> <p> $('#demoForm').find('[type="submit"]').on('click', function(){
+var data = $('#demoForm').getFormParam();
+window.localStorage.setItem('demo', JSON.stringify(data));
+return false;
+});
+});
+})(jQuery)
+</script>
+<!-- js e -->
+</body>
+</html>

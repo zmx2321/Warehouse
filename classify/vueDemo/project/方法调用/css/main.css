@@ -1,0 +1,16 @@
+.finished{
+	cursor: pointer;
+	transition: 0.2s linear;
+	color: #784;
+}
+
+.finished:hover{
+	color: #f00;
+	transition: 0.3s linear;
+}
+
+.ttt{
+	font-size: 1.8rem;
+}
+
+.pushc{font-weight: bold;}

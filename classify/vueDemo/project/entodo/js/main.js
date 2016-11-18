@@ -6,7 +6,7 @@ var app99 = new Vue({
 
 		itms: [
 			{
-				txt: 'cccccc',
+				txt: 'cccccc',	//app.items[0].text
 				isFinished: true,
 				isPushc: false
 			},
