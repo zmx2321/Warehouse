@@ -32,7 +32,7 @@ var app = new Vue({
 			localStorage.k=io;
 			localStorage.getItem("aa");
 			console.log(localStorage.length);
-			console.log(localStorage.key(4));
+			//console.log(localStorage.key(4));
 			/*$("ul").append(`
 				<p>${localStorage.key(4)}</p>
 				<p>${localStorage.getItem(4)}</p>
