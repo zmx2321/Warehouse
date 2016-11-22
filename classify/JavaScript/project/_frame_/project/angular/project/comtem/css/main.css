@@ -1,18 +1,19 @@
 .aaa{
+
     width: 0px;
-    height: 16px;
+    height: 16px;  
     /* border-left: 0px solid transparent; */
     /* border-right: 15px solid transparent; */
     /* border-bottom: 18px solid red; */
-    border: solid 1px;
-    position: relative;
+    /* border: solid 1px;
+    position: relative; */
 }
 
-.aaa:before{
+/* .aaa:before{
     content: '';
     width: 16px;
     border: solid 1px;
     position: absolute;
     top: -1px;
     left: -1px;
-}
+} */
