@@ -1,0 +1,19 @@
+<!--page1.wxml-->
+<view class="container page1">
+        <view class="btn-area">
+
+        <button type="primary" 
+                 bindtap="roomlist"> 斗鱼房间列表演示1
+        </button>
+        <button type="primary" 
+                bindtap="roomlist2"
+                 > 待用。。
+        </button>        
+
+        <button type="primary" 
+                > 待用。。
+        </button>
+
+        </view>
+</view>
+

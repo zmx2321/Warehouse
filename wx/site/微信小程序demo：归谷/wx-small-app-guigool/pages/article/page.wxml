@@ -1,0 +1,21 @@
+<view id="root">
+  <swiper indicator-dots="true" autoplay="true" interval="5000" duration="1000" style="width:100%;">
+    <swiper-item wx:for="{{swiperItems}}" wx:for-item="item">
+      <image src="{{item.img}}" mode="aspectFill" data-url="{{item.url}}" style="width:100%; background-color:#999;" />
+    </swiper-item>
+  </swiper>
+  <view id="tab-bar">
+    <text wx:for-items="{{categories}}" wx:for-item="category" data-key="{{category.key}}" class="{{curCategory == category.key ? 'cur' : ''}}" bindtap="onCategoryTap">{{category.value}}</text>
+  </view>
+  <view id="list">
+    <view class="item" wx:for-items="{{list}}" wx:for-item="item" data-id="{{item._id}}">
+      <image src="{{item.cover}}" mode="aspectFill" style="background-color:#999;" />
+      <view class="right">
+        <text class="title inline">{{item.title}}</text>
+        <view class="tags">
+          <text class="tag" wx:for-items="{{item.tags}}" wx:for-item="tag">{{tags[tag]}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

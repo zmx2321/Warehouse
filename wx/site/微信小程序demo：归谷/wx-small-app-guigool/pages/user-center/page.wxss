@@ -1,0 +1,15 @@
+
+#root {display:flex; flex-flow:column nowrap; align-items:center; font-size:14rpx;}
+
+#root .head-not-logged {display:flex; flex-flow:column nowrap; align-items:center; margin-top:100rpx;}
+#root .head-not-logged image {width:200rpx; height:200rpx; border-radius:50%; margin-bottom:10rpx;}
+#root .head-not-logged text {font-size:24rpx;}
+
+#root .head-logged {display:flex; flex-flow:column nowrap; align-items:center; margin-top:100rpx;}
+#root .head-logged image {width:200rpx; height:200rpx; border-radius:50%; margin-bottom:10rpx; background-color:#999;}
+#root .head-logged text {font-size:24rpx;}
+
+#root .list {display:flex; flex-flow:column nowrap; width:100%; padding: 20rpx; box-sizing:border-box; margin-top: 50rpx;}
+#root .list .item {display:flex; box-shadow:1px 1px 3px 0px #000; width:100%; padding:20rpx; box-sizing:border-box; margin-bottom:20rpx; font-size:32rpx;}
+#root .list .item image {width:30rpx; height:30rpx; margin-right:10rpx;}
+#root .list .item text.name {flex:1;}

@@ -1,0 +1,5 @@
+.categories {display:flex; flex-wrap:wrap;}
+.category {display:flex; flex-direction:column; justify-content:center; align-items:center; width:25%; height:200rpx;}
+.category:hover {border:15rpx solid white; box-sizing:border-box;}
+.category image {width:50%; height:50%; border-radius:5rpx;}
+.category text {margin-top:15rpx; color:#272636; font-size:10rpx;}

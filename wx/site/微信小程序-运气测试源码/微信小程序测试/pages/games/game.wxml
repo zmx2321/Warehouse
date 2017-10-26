@@ -1,0 +1,46 @@
+<!-- game.wxml-->
+<view class="mainContainer">
+<toast hidden="{{toast1Hidden}}" duration="4000" bindchange="closeToast">
+    {{LuckyValue}}
+</toast>
+<view class="section1">
+  <view class="flex-wrp">
+    <view class="flex-item_bc_green"  bindtap="user_Click" id="0">
+    <text hidden="{{show[0]}}">{{nums[0]}}</text>
+    </view>
+    <view class="flex-item_bc_red" bindtap="user_Click" id="1">
+    <text hidden="{{show[1]}}">{{nums[1]}}</text>
+    </view>
+    <view class="flex-item_bc_blue" bindtap="user_Click" id="2">
+    <text hidden="{{show[2]}}">{{nums[2]}}</text>
+    </view>
+  </view>
+</view>
+<view class="section2">
+  <view class="flex-wrp">
+    <view class="flex-item_bc_red" bindtap="user_Click" id="3">
+    <text hidden="{{show[3]}}">{{nums[3]}}</text>
+    </view>
+    <view class="flex-item_bc_blue" bindtap="user_Click" id="4">
+    <text hidden="{{show[4]}}">{{nums[4]}}</text>
+    </view>
+    <view class="flex-item_bc_green"  bindtap="user_Click" id="5">
+    <text hidden="{{show[5]}}">{{nums[5]}}</text>
+    </view>
+  </view>
+</view>
+<view class="section2">
+  <view class="flex-wrp">
+    <view class="flex-item_bc_blue" bindtap="user_Click" id="6">
+    <text hidden="{{show[6]}}">{{nums[6]}}</text>
+    </view>
+    <view class="flex-item_bc_green" bindtap="user_Click" id="7">
+    <text hidden="{{show[7]}}">{{nums[7]}}</text>
+    </view>
+    <view class="flex-item_bc_red" bindtap="user_Click" id="8">
+    <text hidden="{{show[8]}}">{{nums[8]}}</text>
+    </view>
+  </view>
+</view>
+</view>
+<button class="restart_btn" bindtap="restart_btn">Restart</button>

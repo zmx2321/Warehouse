@@ -1,0 +1,14 @@
+<swiper indicator-dots="true" autoplay="true" interval="5000" duration="1000" style="width:100%;">
+  <swiper-item wx:for="{{swipeItemImageUrls}}" wx:for-item="url">
+    <image src="{{url}}" mode="aspectFill" style="width:100%;"/>
+  </swiper-item>
+</swiper>
+<view class="categories">
+  <view class="category" wx:for="{{categories}}" wx:for-item="category" data-page-path="{{category.pagePath}}" bindtap="onCategoryTap">
+    <image src="{{category.image}}" mode="aspectFill" />
+    <text>{{category.text}}</text>
+  </view>
+</view>
+
+
+

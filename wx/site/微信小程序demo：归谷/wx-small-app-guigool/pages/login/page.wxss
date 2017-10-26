@@ -1,0 +1,18 @@
+#root {display:flex; flex-flow:column nowrap; align-items:center; font-size: 16rpx;}
+
+#root #logo {display:flex; flex-flow:column nowrap; margin-top:100rpx;}
+#root #logo image {width:200rpx; height:200rpx; border-radius:50%;}
+#root #logo text {text-align:center; margin-top:10rpx;}
+
+#root #form {display:flex; flex-flow:column nowrap; width:90%;}
+#root #form .input {display:flex; flex-flow:row nowrap; margin-top:30rpx; border-bottom:1px solid #272636; padding:10rpx 0rpx;}
+#root #form .input image {width:50rpx; height:50rpx; margin-right:10rpx;}
+#root #form .input input {flex:1;}
+
+#root button {width:90%; margin-top:30rpx;}
+
+#root #forget-pwd {margin-top:30rpx;}
+
+toast {font-size: 12rpx;}
+
+

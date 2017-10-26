@@ -1,0 +1,23 @@
+<view class="container">
+  <view class="search-container">
+    <input bindinput="bindInputNo" class="no-input" placeholder-style="font-size:20rpx;" auto-focus placeholder="输入快递单号查询"/>
+    <button bindtap="bindSearachTab"  type="primary" size="mini" class="btn-search" >查询</button>
+  </view>
+  <view class="result">
+    <scroll-view scroll-y="true">
+      <view class="res" wx:for="{{items}}">
+        <text class="res-text">时间:{{item.datetime}}</text>
+        <text class="res-text">备注:{{item.remark}}</text>
+        <text class="res-text">地点:{{item.zone}}</text>
+      </view>
+    </scroll-view>
+  </view>
+  <modal class="modal" hidden="{{modalHidden}}" no-cancel bindconfirm="modalChange">
+    <view> {{Error_Msg}} </view>
+  </modal>
+  <view class="body-view">
+  <loading hidden="{{hiddenLoding}}" bindchange="loadingChange">
+    加载中...
+  </loading>
+</view>
+</view>

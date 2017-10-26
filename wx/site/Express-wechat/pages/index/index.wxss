@@ -1,0 +1,12 @@
+
+
+.express-list-view{
+  margin-top: 20rpx;
+}
+
+.express-list-item{
+  padding: 20rpx;
+  padding-left: 40rpx;
+  border-bottom: solid 2rpx lightgray;
+}
+

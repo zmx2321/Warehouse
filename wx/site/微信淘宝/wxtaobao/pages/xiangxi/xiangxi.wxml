@@ -1,0 +1,53 @@
+
+<swiper indicator-dots="{{indicatorDots}}" class="swiper" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgs}}">
+    <swiper-item>
+      <div style="text-align:center"><image src="{{item.url}}" class="slide-image" /></div>
+    </swiper-item>
+  </block>
+
+</swiper>
+
+  <view>
+    <view class="x_title">{{title}}</view>
+    <view class="x_price">商品价格：<span class="x_bprice">{{price}}</span>元</view>
+    <view class="x_xl">销量：{{volume}}</view>
+    <view class="x_place">商品所在地：{{location.state}} {{location.city}}</view>
+    <view class="x_nick">卖家昵称：{{nick}}</view>
+    <view class="x_url">商品地址：{{detailUrl}}</view>
+    <view class="x_num">商品库存：{{num}}</view>
+    <view class="x_invoice">发票：<span>{{hasInvoice > 0 ? "有发票" : "没有发票"}}</span></view>
+    <view class="x_stype">店铺类型：{{shopType == "C" ? "淘宝店铺" : "天猫店铺"}}</view>
+  </view>
+  <view class="x_btn">
+    <view class="x_sc1"><button data-id="1" bindtap="open" type="">收藏店铺</button></view>
+    <view class="x_sc2"><button data-id="2" bindtap="open" type="">收藏商品</button></view>
+    <view class="x_share"><button data-id="3" bindtap="open" type="">分享宝贝</button></view>
+  </view>
+<include src="../common/foot.wxml" />
+
+
+
+<modal title="收藏该店铺" confirm-text="确定" cancel-text="取消" hidden="{{tip1}}" data-str="1" bindconfirm="ok" bindcancel="close">
+  {{nick}}
+</modal>
+
+<modal hidden="{{tip2}}" data-str="2" confirm-text="确定" no-cancel bindconfirm="ok">
+  <view>{{detailUrl}}</view>
+</modal>
+
+<toast hidden="{{tip3}}" bindchange="close">
+收藏成功
+</toast>
+
+
+<action-sheet hidden="{{tip4}}" bindchange="close">
+  <block wx:for="{{shareArr}}">
+    <action-sheet-item class="item" bindtap="choose" data-name="{{item}}">{{item}}</action-sheet-item>
+  </block>
+  <action-sheet-cancel class="cancel" bindtap="close">取消</action-sheet-cancel>
+</action-sheet>
+
+<toast hidden="{{tip5}}" bindchange="close">
+<view class="tip5name">分享到{{tip5name}}</view>
+</toast>

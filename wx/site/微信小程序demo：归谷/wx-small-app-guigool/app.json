@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/page",
+    "pages/logs/page",
+    "pages/policy-category/page",
+    "pages/article/page",
+    "pages/user-center/page",
+    "pages/login/page"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#56abe4",
+    "navigationBarTitleText": "归谷",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#272636",
+    "selectedColor": "#56abe4",
+    "borderStyle": "white",
+    "backgroundColor": "",
+    "list": [
+      {
+        "text": "首页",
+        "iconPath": "public/image/tab-bar/index.png",
+        "selectedIconPath": "public/image/tab-bar/index-selected.png",
+        "pagePath": "pages/index/page"
+      },
+      {
+        "text": "个人中心",
+        "iconPath": "public/image/tab-bar/me.png",
+        "selectedIconPath": "public/image/tab-bar/me-selected.png",
+        "pagePath": "pages/user-center/page"
+      }
+    ]
+  }
+}

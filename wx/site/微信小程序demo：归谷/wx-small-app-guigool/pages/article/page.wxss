@@ -1,0 +1,17 @@
+#root {display:flex; flex-flow:column nowrap; color:#272636; font-size:12rpx;}
+
+#tab-bar {display:flex; font-size:32rpx;}
+#tab-bar text {flex:1; text-align:center; padding:20rpx 10rpx;}
+#tab-bar text.cur {background-color:#56abe4; color:white; position:relative;}
+#tab-bar text.cur:after {content:""; position:absolute; display:inline-block; bottom:-15rpx; left:50%; transform: translate(-50%, 0%); border-left:15rpx solid transparent; border-right:15rpx solid transparent; border-top:15rpx solid #56abe4;}
+
+#list {display:flex; flex-flow:column nowrap; padding:20rpx 10rpx;}
+#list .item {display:flex; margin-bottom:10rpx;}
+#list .item image {width:120rpx; height:120rpx; border-radius:5rpx;}
+#list .item .right {flex:1; display:flex; flex-flow:column nowrap; justify-content:space-between; padding:10rpx 15rpx;}
+#list .item .right .title {font-size:32rpx;}
+#list .item .right .tags {display:flex;}
+#list .item .right .tags .tag {font-size:12rpx; color:#999; border:1rpx solid #56abe4; padding: 5rpx; margin-left:5rpx; border-radius:5rpx;}
+
+/* 文本溢出... */
+.inline {overflow:hidden; display:-webkit-box !important; text-overflow:ellipsis; word-break:break-all; -webkit-box-orient:vertical; -webkit-line-clamp:1;}

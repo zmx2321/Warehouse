@@ -1,0 +1,61 @@
+.mainContainer{
+    height: 750rpx;
+    background-color: black;
+}
+.section1{
+    height: 33.3%;
+}
+.section2{
+    height: 33.3%;
+}
+.section3{
+    height: 33.3%;
+}
+
+.flex-wrp{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: rebeccapurple;
+    align-items: center;
+}
+
+.flex-item_bc_green{
+    width: 33.3%;
+    height: 250rpx;
+    background-color: green;
+    text-align: center;
+    line-height:250rpx;
+
+}
+
+.flex-item_bc_red{
+    width: 33.3%;
+    height: 250rpx;
+    background-color: red;
+    text-align: center;
+    line-height:250rpx;
+
+}
+
+
+.flex-item_bc_blue{
+    width: 33.3%;
+     height: 250rpx;
+    background-color: blue;
+    text-align: center;
+     line-height:250rpx;
+
+}
+
+.restart_btn{
+    margin-top: 20rpx;
+    height: 120rpx;
+    background: url('img/bg_btn.png');
+    background-size:100% 120rpx;
+    background-color:  yellowgreen;
+    font-size: 40rpx;
+    color: greenyellow;
+    text-align:  center;
+    line-height: 120rpx;
+}

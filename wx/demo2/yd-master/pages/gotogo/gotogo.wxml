@@ -1,0 +1,23 @@
+<view class="container">
+
+  <view class="article-list">
+
+    <block wx:for="{{gotogos}}" wx:key="cid">
+      <navigator url="../article/article?id={{item.cid}}">
+        <view class="article-box" animation="{{item.cid == currentCid ? animationData : null}}">
+          <image src="{{item.url}}"></image>
+          <view class="article-info">
+            <text class="article-title">{{item.title}}</text>
+            <text class="price">{{item.price}}</text>
+          </view>
+        </view>
+      </navigator>
+    </block>
+  </view>
+
+  <view class="operate-area">
+    <view bindtap="like"></view>
+    <view class="dislike" bindtap="dislike"></view>
+  </view>
+
+</view>

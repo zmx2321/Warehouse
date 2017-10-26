@@ -1,0 +1,13 @@
+
+
+.page1info-avatar {
+    margin: 10px;
+    width: 100px;
+    height: 50px;
+    border: 50px;
+
+}
+
+.btn-area Button{
+    margin-top: 50rpx;
+}

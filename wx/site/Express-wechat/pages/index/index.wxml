@@ -1,0 +1,7 @@
+<view class="container">
+  <scroll-view class="express-list-view" scroll-y="true">
+    <view wx:for="{{express_list}}" class="express-list-item" bindtap="bindItemTap" data-no="{{item.no}}" data-com="{{item.com}}">
+      <text class=""express-list-item-name>{{item.com}}</text>
+    </view>
+  </scroll-view>
+</view>

@@ -1,0 +1,84 @@
+{
+    "error": 0,
+    "data": {
+        "room_id": "633019",
+        "room_thumb": "https:\/\/rpic.douyucdn.cn\/a1610\/28\/21\/633019_161028215010.jpg",
+        "cate_id": "2",
+        "cate_name": "\u7089\u77f3\u4f20\u8bf4",
+        "room_name": "\u5566\u5566\u5566\uff1a\u5609\u5e74\u534e\u65f6\u5dee0 0",
+        "room_status": "1",
+        "owner_name": "\u7089\u77f3\u4e36\u5566\u5566\u5566",
+        "avatar": "https:\/\/apic.douyucdn.cn\/upload\/avatar\/face\/201605\/18\/22f0631caf6f62bd3ce7aea2a6b31723_big.jpg?rltime",
+        "online": 233610,
+        "owner_weight": "32.33t",
+        "fans_num": "338750",
+        "start_time": "2016-10-28 18:20",
+        "gift": [{
+                "id": "196",
+                "name": "\u706b\u7bad",
+                "type": "2",
+                "pc": 500,
+                "gx": 5000,
+                "desc": "\u8d60\u9001\u7f51\u7ad9\u5e7f\u64ad\u5e76\u6d3e\u9001\u51fa\u795e\u79d8\u5b9d\u7bb1",
+                "intro": "\u6211\u4eec\u7684\u5f81\u9014\u662f\u661f\u8fb0\u5927\u6d77",
+                "mimg": "http:\/\/staticlive.douyucdn.cn\/upload\/dygift\/1606\/26f802520cf0e4d8a645259bbc1aadf3.png",
+                "himg": "http:\/\/staticlive.douyucdn.cn\/upload\/dygift\/1606\/39b578b3cb8645b54f9a1001c392a237.gif"
+            },
+            {
+                "id": "195",
+                "name": "\u98de\u673a",
+                "type": "2",
+                "pc": 100,
+                "gx": 1000,
+                "desc": "\u8d60\u9001\u623f\u95f4\u5e7f\u64ad\u5e76\u8d60\u9001\u9053\u5177\u5b9d\u7bb1",
+                "intro": "\u4e3b\u64ad\u5e26\u6211\u98de",
+                "mimg": "http:\/\/staticlive.douyucdn.cn\/upload\/dygift\/1606\/76dd0d8c803b133467e4f0196c7d071d.png",
+                "himg": "http:\/\/staticlive.douyucdn.cn\/upload\/dygift\/1606\/93daef170894a9d6bd8495fa0f81e165.gif"
+            },
+            {
+                "id": "194",
+                "name": "666",
+                "type": "2",
+                "pc": 6,
+                "gx": 60,
+                "desc": "",
+                "intro": "\u4e3b\u64ad\u8fd9\u4e486\uff0c\u4f60\u9ebb\u9ebb\u77e5\u9053\u5417",
+                "mimg": "http:\/\/staticlive.douyucdn.cn\/upload\/dygift\/1606\/9c30da343dc3b1e65156ae0570603d06.png",
+                "himg": "http:\/\/staticlive.douyucdn.cn\/upload\/dygift\/1606\/6681d1a713ece37912a1dac339c9fb29.gif"
+            },
+            {
+                "id": "193",
+                "name": "\u5f31\u9e21",
+                "type": "2",
+                "pc": 0.2,
+                "gx": 2,
+                "desc": "",
+                "intro": "\u771f\u662f\u592a\u9db8\u62c9~",
+                "mimg": "http:\/\/staticlive.douyucdn.cn\/upload\/dygift\/1606\/3cecdd879dc9e9ec5f0c77099201ca94.png",
+                "himg": "http:\/\/staticlive.douyucdn.cn\/upload\/dygift\/1606\/e144b05fd7dec1b194909e02b6dff92f.gif"
+            },
+            {
+                "id": "192",
+                "name": "\u8d5e",
+                "type": "2",
+                "pc": 0.1,
+                "gx": 1,
+                "desc": "",
+                "intro": "\u8d5e\u4e00\u4e2a\uff01",
+                "mimg": "http:\/\/staticlive.douyucdn.cn\/upload\/dygift\/1606\/d1ebe78032472a3146b5f8e717ead680.png",
+                "himg": "http:\/\/staticlive.douyucdn.cn\/upload\/dygift\/1606\/b09488ff5ebe85c4f66e72e27b53d517.gif"
+            },
+            {
+                "id": "191",
+                "name": "100\u9c7c\u4e38",
+                "type": "1",
+                "pc": 100,
+                "gx": 1,
+                "desc": "",
+                "intro": "\u7edd\u4f73\u7684\u589e\u91cd\u7f8e\u98df",
+                "mimg": "http:\/\/staticlive.douyucdn.cn\/upload\/dygift\/1606\/37a913eb1d9b3e8e6278d8a309696d58.png",
+                "himg": "http:\/\/staticlive.douyucdn.cn\/upload\/dygift\/1606\/072dc9aea67fb42f095f973c8e0a183e.png"
+            }
+        ]
+    }
+}

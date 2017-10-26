@@ -1,0 +1,29 @@
+{
+    "pages": [
+
+        "pages/page1/page1",
+        "pages/page1/roomlist",
+        "pages/page1/room"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "WeChat",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "list": [{
+                "pagePath": "",
+                "iconPath": "",
+                "selectIconPath": "",
+                "text": "接口"
+            },
+            {
+                "pagePath": "",
+                "iconPath": "",
+                "selectIconPath": "",
+                "text": "组件"
+            }
+        ]
+    }
+}

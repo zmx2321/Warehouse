@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#222222",
+    "navigationBarTitleText": "电影时光",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "borderStyle": "white",  
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "source/ico/fx.png",
+        "selectedIconPath": "source/ico/fx-sel.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "热评",
+        "iconPath": "source/ico/rp.png",
+        "selectedIconPath": "source/ico/rp-sel.png"
+      },
+       {
+        "pagePath": "pages/logs/logs",
+        "text": "圈子",
+        "iconPath": "source/ico/qz.png",
+        "selectedIconPath": "source/ico/qz-sel.png"
+      }
+    ]
+  }
+}

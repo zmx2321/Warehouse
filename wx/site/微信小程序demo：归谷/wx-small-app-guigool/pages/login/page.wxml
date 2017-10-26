@@ -1,0 +1,23 @@
+<view id="root">
+    <view id="logo">
+        <image src="/pages/login/image/logo.jpg" />
+        <text>归谷</text>
+    </view>
+    <view id="form">
+        <view class="input">
+            <image src="/pages/login/image/zh.png" />
+            <input type="text" placeholder="请输入手机号/邮箱" bindinput="onPhoneInput" />
+        </view>
+        <view class="input">
+            <image src="/pages/login/image/mm.png" />
+            <input type="text" placeholder="请输入密码" bindinput="onPwdInput" />
+        </view>
+    </view>
+    <button type="primary" size="mini" disabled="{{!phone || !pwd}}" bindtap="onLoginTap">登录</button>
+    <button size="mini">注册</button>
+    <label id="forget-pwd">忘记密码？</label>
+</view>
+
+<modal hidden="{{!modelContent}}" confirm-text="知道了" no-cancel bindconfirm="onModalConfirm">
+    <text>{{modelContent}}</text>
+</modal>

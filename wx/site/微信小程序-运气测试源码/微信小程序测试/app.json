@@ -1,0 +1,21 @@
+{
+  "pages":[
+    "pages/games/game"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#0000",
+    "navigationBarTitleText": "微信测试",
+    "navigationBarTextStyle":"white"
+  
+  },
+  "tabBar":{
+    "list":[
+        {
+        "pagePath":"pages/games/game",
+        "text":"game"
+      }
+    ]
+  }
+  
+}

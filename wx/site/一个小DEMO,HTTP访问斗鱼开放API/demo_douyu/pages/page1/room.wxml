@@ -1,0 +1,24 @@
+<View class="page">
+    <view class="result" >
+        
+        <view class="room_info">
+
+        <block wx:for-items="{{roominfo}}">
+
+        <view class="room_info_item">
+        <view class="room_item_key">
+        <text>
+        {{item.key}}
+        </text> 
+        </view>
+        <view class="room_item_value">
+{{item.value}}         
+        <text></text>
+        </view>
+        </view>
+        </block>
+
+        </view>
+
+    </view>
+</View>

@@ -1,0 +1,32 @@
+<view id="root">
+    <view wx:if="{{!user}}" class="head-not-logged" bindtap="goLogin" >
+        <image src="{{wxUser.avatarUrl}}" mode="aspectFill" />
+        <text>登录 & 注册</text>
+    </view>
+    <view wx:else class="head-logged">
+        <image src="{{user.photo}}" mode="aspectFill" />
+        <text>{{user.username}}</text>
+    </view>
+    <view class="list">
+        <view class="item" bindtap="on_grjl_tap">
+            <image src="/pages/user-center/image/grjl.png" />
+            <text class="name">个人简历</text>
+            <text>></text>
+        </view>
+        <view class="item" bindtap="on_grsc_tap">
+            <image src="/pages/user-center/image/grsc.png" />
+            <text class="name">个人收藏</text>
+            <text>></text>
+        </view>
+        <view class="item" bindtap="on_yjfk_tap">
+            <image src="/pages/user-center/image/yjfk.png" />
+            <text class="name">意见反馈</text>
+            <text>></text>
+        </view>
+        <view class="item" bindtap="on_grsz_tap">
+            <image src="/pages/user-center/image/grsz.png" />
+            <text class="name">个人设置</text>
+            <text>></text>
+        </view>
+    </view>
+</view>

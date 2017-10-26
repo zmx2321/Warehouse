@@ -1,0 +1,49 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/xiangxi/xiangxi",
+    "pages/my/my",
+    "pages/search/search",
+    "pages/setting/setting"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "微信淘宝",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "selectedColor":"#000",
+    "borderStyle":"white",
+    "list": [
+    {
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "pages/img/home.png",
+      "selectedIconPath": "pages/img/home-actived.png"
+
+    
+    }, 
+    {
+      "pagePath": "pages/search/search",
+      "text": "搜索",
+      "iconPath": "pages/img/search.png",
+      "selectedIconPath": "pages/img/search-actived.png"
+     
+    },
+    {
+      "pagePath": "pages/setting/setting",
+      "text": "设置",
+      "iconPath": "pages/img/note.png",
+      "selectedIconPath": "pages/img/note-actived.png"
+     
+    },
+    {
+      "pagePath": "pages/my/my",
+      "text": "我",
+      "iconPath": "pages/img/profile.png",
+      "selectedIconPath": "pages/img/profile-actived.png"
+     
+    }]
+  }
+}

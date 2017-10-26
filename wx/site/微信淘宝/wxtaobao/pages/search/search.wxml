@@ -1,0 +1,7 @@
+<view>
+
+    <input class="s_input" type="text" placeholder="输入您想查询的关键字" />
+
+    <button class="s_btn" hover-class="s_btn_hover" type="default" >搜索</button>
+
+</view>

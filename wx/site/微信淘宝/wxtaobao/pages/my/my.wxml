@@ -1,0 +1,20 @@
+<view class="m_body">
+    <view style="text-align:center; margin-bottom:20px;">
+
+        <image src="{{m_img}}" style="width:300px; height:300px"></image>
+    </view>
+    <view class="m_item">
+    姓名：钮旗龙
+    </view>
+    <view class="m_item">
+    邮箱：dodoluck@yeah.net
+    </view>
+    <view class="m_item">
+    QQ/TEL/微信：13912992499
+    </view>
+    <view class="m_item">
+    申明：本案例只提供给小程序开发者参考，有问题的可以通过以上联系方式加我，互相交流，共同进步。
+    </view>
+
+
+</view>

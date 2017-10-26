@@ -1,0 +1,32 @@
+<view id="root">
+  <swiper indicator-dots="true" autoplay="true" interval="5000" duration="1000" style="width:100%;">
+    <swiper-item wx:for="{{swiperItems}}" wx:for-item="item">
+      <image src="{{item.image}}" mode="aspectFill" data-url="{{item.url}}" style="width:100%; background-color:#999;" />
+    </swiper-item>
+  </swiper>
+
+  <view id="select">
+    <view class="countries">
+      <text wx:for="{{location.countries}}" wx:for-item="country" bindtap="onCountryTap" class="{{selected.country == country ? 'selected' : ''}}" data-value="{{country}}">{{country}}</text>
+    </view>
+    <view class="provinces">
+      <text wx:for="{{location.provinces[selected.country]}}" wx:for-item="province" bindtap="onProvinceTap" class="{{selected.province == province ? 'selected' : ''}}" data-value="{{province}}">{{province}}</text>
+    </view>
+    <view class="cities" style="{{!selected.province ? 'display:none;' : ''}}">
+      <text wx:for="{{location.cities[selected.province]}}" wx:for-item="city" bindtap="onCityTap" class="{{selected.city == city ? 'selected' : ''}}" data-value="{{city}}">{{city}}</text>
+    </view>
+    <view class="counties" style="{{!selected.city ? 'display:none;' : ''}}">
+      <text wx:for="{{location.counties[selected.city]}}" wx:for-item="county" bindtap="onCountyTap" class="{{selected.county == county ? 'selected' : ''}}" data-value="{{county}}">{{county}}</text>
+    </view>
+  </view>
+
+  <view id="policy-categories">
+    <view class="policy-category" wx:for="{{policyCategories}}" wx:for-item="pc" data-id="{{pc._id}}">
+      <image src="{{pc.image}}" mode="aspectFill" />
+      <view>
+        <text>{{pc.name}}</text>
+        <text class="inline">{{pc.summary}}</text>
+      </view>
+    </view>
+  </view>
+</view>

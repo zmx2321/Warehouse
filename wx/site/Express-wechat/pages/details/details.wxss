@@ -1,0 +1,28 @@
+.no-input{
+  border-bottom: solid lightgray 2rpx;
+  height: 50rpx;
+  font-size: 35rpx;
+  width: 80%;
+}
+
+.search-container{
+  display: flex;
+  margin-top: 20rpx;
+}
+
+.result{
+  margin-top: 50rpx;
+  padding: 20rpx;
+}
+
+.res{
+  border: 1rpx solid lightgray;
+  padding: 5rpx;
+}
+
+.res-text{
+  font-size: 30rpx;
+  display: block;
+  margin-top: 10rpx;
+}
+
